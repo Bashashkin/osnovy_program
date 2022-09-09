@@ -1,0 +1,116 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOGYXDx1pYrBee5zRkCuGyt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Bashashkin/osnovy_program/blob/main/323ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# № 3.2.3\n",
+        "\n",
+        "Дана электрическая цепь, состоящая из 2-х последовательно соединенных проводников (сопротивление каждого известно). Найти общее сопротивление цепи (округление результата необходимо выполнить до 1-го знака после запятой).\n",
+        "\n",
+        "Решение (начало и общий ход мыслей):\n",
+        "\n",
+        "Аналитическое решение.\n",
+        "\n",
+        "Проводники соединены последовательно, поэтому общее сопротивление цепи будет равно сумме их сопротивлений. Сопротивление может быть вещественным числом, поэтому для его хранения необходимо выбрать тип float.\n",
+        "\n",
+        "Алгоритм.\n",
+        "\n",
+        "- ввести 2 вещественных значения - сопротивления проводников;\n",
+        "- вычислить их сумму;\n",
+        "- вывести ответ на экран.\n",
+        "Программа.\n",
+        "\n",
+        "# здесь должна быть программа"
+      ],
+      "metadata": {
+        "id": "msSXqrpGCdc2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UsTOI4MICaL4",
+        "outputId": "1a26fc74-e5a9-462e-b056-383bcca0c60e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Введите значение сопротивления первого проводника\n",
+            "r1=12.2\n",
+            "Введите значение сопротивления второго проводника\n",
+            "r2=16.1\n",
+            "Общее сопротивление=  28.3\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Программирование на языке высокого уровня (Python).\n",
+        "# https://www.yuripetrov.ru/edu/python\n",
+        "# Задание task_03_02_03.\n",
+        "#\n",
+        "# Выполнил: Башашкин А.М\n",
+        "# Группа: АДЭУ-221\n",
+        "# E-mail: alesha_2010@list.ru\n",
+        "\n",
+        "\n",
+        "\n",
+        "print('Введите значение сопротивления первого проводника')\n",
+        "r1 = float(input(\"r1=\"))\n",
+        "print('Введите значение сопротивления второго проводника')\n",
+        "r2 = float(input(\"r2=\"))\n",
+        "\n",
+        "# Общее сопротивление\n",
+        "r = r1+r2\n",
+        "\n",
+        "print('Общее сопротивление= ',r)\n",
+        "\n",
+        "\n",
+        "# --------------\n",
+        "# Пример вывода:\n",
+        "#\n",
+        "# r1=12.2\n",
+        "# r2=16.1\n",
+        "# 28.3\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "OQ-VZkCLCa6U"
+      }
+    }
+  ]
+}
